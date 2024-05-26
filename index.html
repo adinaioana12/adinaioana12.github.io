@@ -1,117 +1,422 @@
 <!DOCTYPE html>
-<html lang="ro">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Inteligenţa Artificială</title>
-<style>
-  body {
-    font-family: Arial, sans-serif;
-    font-size: 20px;
-    margin: 0;
-    padding: 0;
-  }
-  header {
-    background-color: #8A2BE2; 
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-  }
-  section {
-    padding: 20px;
-  }
-  h2 {
-    color: #8A2BE2; 
-  }
-  p {
-    color: #333;
-  }
-  table {
-    width: 100%;
-    margin-top: 20px;
-    border-collapse: collapse;
-    background-color: #D8BFD8; 
-  }
-  th, td {
-    padding: 8px;
-    text-align: left;
-    border: 1px solid black; 
-  }
-  th {
-    background-color: #f2f2f2;
-  }
-  img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-  }
-</style>
-</head>
-<body>
-<header>
-  <h1>Inteligenţa Artificială</h1>
-</header>
-<section>
-  <h2>Despre Inteligenţa Artificială</h2>
-  <p>AI este capacitatea unei mașini de a imita funcții umane, cum ar fi raționamentul, învățarea, planificarea și creativitatea.
-AI permite sistemelor tehnice să perceapă mediul în care funcționează, să prelucreze această percepție și să rezolve probleme, acționând pentru a atinge un anumit obiectiv. Calculatorul primește datele (deja pregătite sau colectate prin intermediul propriilor senzori, cum ar fi o cameră video), le prelucrează și reacționează.</p>
-<center>
-<img src="inteligenta_artificiala_2.jpg" width="1200">
-</center>
+<html lang="en">
 
-  <h2>Aplicații ale Inteligenţei Artificiale</h2>
-  <p>AI are numeroase aplicații practice, inclusiv:</p>
-  <ul>
-    <li>Recunoașterea vocală</li>
-    <li>Înțelegerea limbajului natural</li>
-    <li>Analiza datelor și previziuni</li>
-    <li>Mașini autonome</li>
-    <li>Robotică</li>
-    <li>Asistență medicală personalizată</li>
-  </ul>
-  <table>
-    <tr>
-      <th>Aplicație</th>
-      <th>Descriere</th>
-    </tr>
-    <tr>
-      <td>Recunoașterea vocală</td>
-      <td>Sistemele de recunoaștere vocală, cum ar fi Alexa, Siri și Google Assistant, utilizează AI pentru a recunoaște și răspunde la comenzi vocale.</td>
-    </tr>
-    <tr>
-      <td>Înțelegerea limbajului natural</td>
-      <td>AI este utilizată pentru a înțelege și interpreta limbajul natural în texte și discursuri, facilitând traducerea automată și procesarea semantică.</td>
-    </tr>
-    <tr>
-      <td>Analiza datelor și previziuni</td>
-      <td>Algoritmii de AI sunt utilizați pentru a analiza seturi mari de date și pentru a face previziuni și recomandări în domenii precum comerțul electronic, finanțele și marketingul.</td>
-    </tr>
-    <tr>
-      <td>Mașini autonome</td>
-      <td>Vehiculele autonome utilizează sisteme complexe de AI pentru a percepe mediul înconjurător și pentru a lua decizii în timp real în timpul condusului autonom.</td>
-    </tr>
-    <tr>
-      <td>Robotică</td>
-      <td>Cu ajutorul AI, roboții pot fi programați să îndeplinească sarcini complexe care necesită gândire și raționament avansat, iar în unele cazuri pot colabora eficient cu oamenii în echipă pentru a atinge obiective comune.</td>
-    </tr>
-    <tr>
-      <td>Asistență medicală personalizată</td>
-      <td>AI este utilizată pentru a analiza datele medicale, a oferi diagnostice și tratamente personalizate, ajutând la îmbunătățirea serviciilor medicale.</td>
-    </tr>
-  </table>
-  <br>
-  <center>
-  <img src="inteligenta_artificiala_3.jpg" width="1200">
-  </center>
-  <h2>Viitorul Inteligenţei Artificiale</h2>
-  <p>Se prevede că inteligența artificială va juca un rol din ce în ce mai important în viața noastră, îmbunătățind eficiența, creând noi oportunități și abordând probleme complexe în diverse domenii, cum ar fi medicina, transportul, finanțele și educația.</p>
-  <p>Pentru mai multe informații despre inteligența artificială, puteți vizita <a href="https://en.wikipedia.org/wiki/Artificial_intelligence">pagina Wikipedia</a>.</p>
-  <center>
-  <img src="inteligenta_artificiala_4.jpg" width="1200">
-  </center>
-</section>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Cake</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+    
+    <header class="header">
+        <div class="logoContent">
+            <a href="#"><img src="logo.png" alt=""></a>
+            <h1 class="logoName">Sweet Cake</h1>
+        </div>
+
+        <nav class="navbar">
+            <a href="#pagină principală">pagină principală</a>
+            <a href="#produse">produse</a>
+            <a href="#bloguri>">bloguri</a>
+            <a href="#review>">review</a>
+            <a href="#contact>">contact</a>
+        </nav>
+
+        <div class="icon">
+            <i class="fas fa-search" id="search"></i>
+            <i class="fas fa-bars" id="menu-bar"></i>
+
+        </div>
+
+        <div class="search">
+            <input type="search" placeholder="search...">
+        </div>
+    </header>
+    <section class="home" id="home">
+        <div class="homeContent">
+            <h2>Prăjituri delicioase pentru toți</h2>
+            <p>Fiecare desert este realizat cu ingrediente proaspete și de cea mai bună calitate</p>
+            <div class="home-btn">
+                <a href="#"><button>Găsiți mai multe</button></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="product" id="product">
+        <div class="heading">
+
+            <h2>Produsele noastre</h2>
+        </div>
+        <div class="swiper product-row">
+            <div class="swiper-wrapper">
+
+                <div class=" swiper-slide box">
+                    <div class="img">
+                        <img src="cake1.png" alt="">
+                    </div>
+                    <div class="product-content">
+                        <h3>
+                            Lava cake
+                        </h3>
+                        <p>Lava Cake-ul nostru este făcut din ciocolată fină, unt, ouă proaspete, zahăr și făină de
+                            calitate. Fiecare tăietură dezvăluie un centru lichid de ciocolată, oferind o experiență
+                            delicioasă.</p>
+                        <div class="orderNow">
+                            <button>Comandă acum
+
+                            </button>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class=" swiper-slide box">
+                    <div class="img">
+                        <img src="cake2.png" alt="">
+                    </div>
+                    <div class="product-content">
+                        <h3>
+                            Tort de ciocolată
+                        </h3>
+                        <p>Tortul de ciocolată se prepară din ingrediente de bază precum făină, cacao, zahăr, ouă, unt
+                            și ciocolată. Blatul este pufos, iar crema de ciocolată fină. Este un desert ideal pentru
+                            orice sărbătoare.</p>
+                        <div class="orderNow">
+                            <button>Comandă acum
+
+                            </button>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class=" swiper-slide box">
+                    <div class="img">
+                        <img src="cake3.png" alt="">
+                    </div>
+                    <div class="product-content">
+                        <h3>
+                            Tiramisu
+                        </h3>
+                        <p>Tiramisu este un desert italian clasic, preparat din pișcoturi înmuiate în cafea, mascarpone,
+                            ouă, zahăr și cacao.Gustul intens de cafea și textura fină fac tiramisul un desert iubit și
+                            apreciat în întreaga lume.</p>
+                        <div class="orderNow">
+                            <button>Comandă acum
+
+                            </button>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class=" swiper-slide box">
+                    <div class="img">
+                        <img src="baclava2.png" alt="">
+                    </div>
+                    <div class="product-content">
+                        <h3>
+                            Baclava
+                        </h3>
+                        <p>Baclavaua este un desert tradițional din Orientul Mijlociu, preparat din foi subțiri de
+                            aluat, unt, nuci tocate și sirop de miere sau zahăr. Straturile
+                            crocante de aluat se îmbină perfect cu umplutura aromată</p>
+                        <div class="orderNow">
+                            <button>Comandă acum
+
+                            </button>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+
+
+
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="swiper product-row">
+            <div class="swiper-wrapper">
+
+                <div class=" swiper-slide box">
+                    <div class="img">
+                        <img src="cheesecake2.png" alt="">
+                    </div>
+                    <div class="product-content">
+                        <h3>
+                            Cheesecake
+                        </h3>
+                        <p>Cheesecake-ul este un desert cremos, făcut dintr-o bază de biscuiți sfărâmați și unt,
+                            acoperită cu un strat gros de cremă de brânză, zahăr și ouă. Este aromatizat cu vanilie sau
+                            lămâie și este servit cu diverse toppinguri.
+                        </p>
+                        <div class="orderNow">
+                            <button>Comandă acum
+
+                            </button>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class=" swiper-slide box">
+                    <div class="img">
+                        <img src="ecler2.png" alt="">
+                    </div>
+                    <div class="product-content">
+                        <h3>
+                            Ecler
+                        </h3>
+                        <p>Eclerul este un desert franțuzesc clasic, realizat din aluat choux umplut cu cremă de
+                            patiserie, cu aromă de vanilie sau ciocolată, și glazurat deasupra. Aluatul este crocant la
+                            exterior și moale la interior, iar crema este delicioasă.</p>
+                        <div class="orderNow">
+                            <button>Comandă acum
+
+                            </button>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class=" swiper-slide box">
+                    <div class="img">
+                        <img src="macarons2.png" alt="">
+                    </div>
+                    <div class="product-content">
+                        <h3>
+                            Macarons
+                        </h3>
+                        <p>Macarons sunt delicii franțuzești rafinate, făcute din albușuri de ou, zahăr pudră și migdale
+                            măcinate. Acestea constau în două cochilii crocante la exterior și moi la interior, unite
+                            printr-un strat de cremă de unt sau gem.</p>
+                        <div class="orderNow">
+                            <button>Comandă acum
+
+                            </button>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class=" swiper-slide box">
+                    <div class="img">
+                        <img src="tarta21.png" alt="">
+                    </div>
+                    <div class="product-content">
+                        <h3>
+                            Tartă cu fructe
+                        </h3>
+                        <p>Tarta de fructe este un desert versatil și savuros, format dintr-o crustă fragedă de
+                            patiserie umplută cu cremă de vanilie. Deasupra, se așază artistic fructe proaspete, precum
+                            căpșuni, kiwi, afine sau piersici, uneori glazurate pentru un aspect lucios.</p>
+                        <div class="orderNow">
+                            <button>Comandă acum
+
+                            </button>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+
+
+
+            <div class="swiper-pagination"></div>
+        </div>
+
+    </section>
+
+    <section class="blogs" id="blogs">
+
+        <div class=" swiper blogs-row">
+            <div class="swiper-wrapper">
+
+                <div class=" swiper-slide box">
+                    <div class="img">
+                        <img src="blog-img1.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>
+                            Brioșe de vanilie
+                        </h3>
+                        
+                        <p>Brioșele de vanilie sunt prăjituri mici, pufoase și aromate, perfecte pentru orice ocazie, fie că e vorba de un mic dejun rapid, un desert după prânz sau o gustare de după-amiază. Ele se remarcă prin textura lor ușoară și aerată, datorită combinației potrivite de ingrediente și metodei de preparare.</p>
+                        <a href="#blogs" class="btn">Afla mai multe</a>
+                    </div>
+                </div>
+                <div class=" swiper-slide box">
+                    <div class="img">
+                        <img src="blog-img2.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>
+                            Ce este special la torturile noastre?
+                        </h3>
+                        
+                        <p> Avem o gamă variată de rețete unice, create cu multă atenție și pasiune. De asemenea, oferim posibilitatea de a personaliza torturile în funcție de preferințele și nevoile clienților noștri.
+
+                            Decorul torturilor noastre este realizat de artiști talentați, care transformă fiecare tort într-o operă de artă, iar fiecare detaliu este meticulos lucrat pentru a oferi un aspect impresionant.
+                            
+                            </p>
+                        <a href="#blogs" class="btn">Afla mai multe</a>
+                    </div>
+                </div>
+                <div class=" swiper-slide box">
+                    <div class="img">
+                        <img src="blog-img3.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>
+                            Cofetarii noștri
+                        </h3>
+                        
+                        <p>Fiecare cofetar aduce o notă personală în creațiile sale. De la rețete tradiționale reinterpretate cu schimbări moderne, până la combinații inedite de arome, cofetarii noștri sunt mereu în căutare de noi modalități de a surprinde și încânta papilele gustative ale clienților noștri.
+
+                        </p>
+                        <a href="#blogs" class="btn">Afla mai multe</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+
+    </section>
+
+    <section class="newsletter">
+        <form action="">
+            <h3>Abonează-te pentru noutăți</h3>
+            <input type="email" name="" placeholder="Scrie email" id="" class="box">
+            <input type="button" value="Aboneaza-te" class="box2">
+        </form>
+
+    </section>
+
+    <section class="review" id="review">
+        <div class="heading">
+            <h2>Părerile clienților noștri</h2>
+        </div>
+        <div class="swiper review-row">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <div class="client-review">
+                        <p> Am avut ocazia să colaborez pentru un tort aniversar și am fost impresionată de profesionalism și creativitate. Tortul a fost nu doar spectaculos din punct de vedere vizual, ci și extrem de gustos, fiind apreciat de toți invitații.
+
+                        </p>
+                    </div>
+                    <div class="client-info">
+                        <div class="img">
+                            <img src="client2.jpg" alt="">
+                        </div>
+                        <div class="clientDetailed">
+                            <h3>Georgescu Ana</h3>
+                            <p>Fotograf</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="client-review">
+                        <p> Pentru cei care preferă deserturile mai ușoare, tartele cu fructe proaspete sunt o alegere excelentă. Blatul fraged, crema fină și fructele de sezon sunt îmbinate armonios, oferind un desert răcoritor și rafinat.</p>
+                    </div>
+                    <div class="client-info">
+                        <div class="img">
+                            <img src="client4.jpg" alt="">
+                        </div>
+                        <div class="clientDetailed">
+                            <h3>Popescu Alina</h3>
+                            <p>Bucatăr</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="client-review">
+                        <p> Am avut plăcerea de a încerca mai multe dintre specialitățile casei, iar preferata mea a fost tortul de ciocolată neagră cu zmeură. Combinația perfect echilibrată între ciocolata amăruie și dulceața zmeurei m-a cucerit instantaneu. De asemenea, nu pot să nu menționez macarons-urile delicate, care sunt crocante la exterior și cremoase la interior, cu arome diverse și intense.
+
+                        </p>
+                    </div>
+                    <div class="client-info">
+                        <div class="img">
+                            <img src="client3.jpg" alt="">
+                        </div>
+                        <div class="clientDetailed">
+                            <h3>Ionescu Mihaela</h3>
+                            <p>Profesor</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <footer class="footer" id="contact">
+        <div class="box-container">
+            <div class="mainBox">
+                <div class="content">
+                    <a href="#"><img src="logo.png" alt=""></a>
+                    <h1 class="logoName">Sweet Cake</h1>
+                </div>
+                <p>Poftă bună!</p>
+            </div>
+            <div class="box">
+                <h3>🧁</h3>
+                <a href="#"><i class="fas fa-arrow-right"></i>Pagină principală</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Produse</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Bloguri</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Review</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Contact</a>
+            </div>
+            <div class="box">
+                <h3>🍰</h3>
+                <a href="#"><i class="fas fa-arrow-right"></i>Informații</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Comandă</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Politică de confidențialitate</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Metodă de plată</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Serviciile noastre</a>
+            </div>
+            <div class="box">
+                <h3>Informații de contact</h3>
+                <a href="#"><i class="fas fa-phone"></i>0758248336</a>
+                <a href="#"><i class="fas fa-envelope"></i>adina.postelnicu12@gmail.com</a>
+            </div>
+
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+    <script src="index.js"></script>
+
 </body>
-</html>
-</body>
+
 </html>
